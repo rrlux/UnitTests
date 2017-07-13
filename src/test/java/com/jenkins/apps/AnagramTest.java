@@ -72,4 +72,11 @@ public class AnagramTest {
 
         assertThat(result, equalTo("1234567890"));
     }
+
+    public void testFailed() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
 }
