@@ -74,10 +74,55 @@ public class AnagramTest {
     }
 
     @Test
-    public void testFailed() {
+    public void testFailed1() {
 
         String result = Anagram.anagram("1234567890");
 
         assertThat(result, equalTo("12345678"));
     }
+
+    @Test
+    public void testFailed2() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
+
+    @Test
+    public void testFailed3() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
+
+    @Test
+    public void testFailed4() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
+
+    @Test
+    public void testFailed5() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
+
+    @Test
+    public void testFailed6() {
+
+        String result = Anagram.anagram("1234567890");
+
+        assertThat(result, equalTo("12345678"));
+    }
+
+
+
+
+
 }
